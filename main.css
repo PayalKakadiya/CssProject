@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
 }
 
@@ -10,13 +10,13 @@ body {
 }
 
 .section-title {
-  color: #2ddf5c;
+  color: #031107;
   text-align: center;
 }
 
 #product-overview h1 {
-  color: white;
-  font-family: 'Anton', sans-serif;
+  color: rgb(248, 243, 243);
+  font-family: "Anton", sans-serif;
 }
 .plan {
   background: rgb(172, 247, 209);
@@ -44,7 +44,11 @@ body {
 .plan__price {
   color: rgb(92, 97, 97);
 }
-
+#key-features {
+  background: rgb(250, 9, 49);
+  margin-top: 80px;
+  padding: 15px;
+}
 .plan__features {
   list-style: none;
   margin: 0;
@@ -67,6 +71,26 @@ body {
 .button:active {
   background: white;
   color: #012009;
+}
+.key-feature__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.key-feature {
+  display: inline-block;
+  width: 30%;
+  height: 100px;
+  vertical-align: top;
+
+}
+.key-feature__description{
+  text-align:center;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
 }
 
 .main-header {
