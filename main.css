@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
 }
 
@@ -16,7 +16,7 @@ body {
 
 #product-overview h1 {
   color: white;
-  font-family: "Anton", sans-serif;
+  font-family: 'Anton', sans-serif;
 }
 .plan {
   background: rgb(172, 247, 209);
@@ -28,23 +28,45 @@ body {
   vertical-align: middle;
 }
 
-.plan--highlighted{
+.plan--highlighted {
   background: rgb(3, 143, 3);
   color: white;
-  box-shadow: 2px 2px 2px  2px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
-.plan__annotation{
-background: white;
-color:rgb(3, 143, 3); 
-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.0.5)
+.plan__annotation {
+  background: white;
+  color: rgb(3, 143, 3);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
-.plan__features{
+.plan__title {
+  color: rgb(2, 43, 29);
+}
+.plan__price {
+  color: rgb(92, 97, 97);
+}
+
+.plan__features {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.plan__features li{
+.plan__features li {
   margin: 8px 0;
+}
+.button {
+  background-color: #012009;
+  color: white;
+  font: inherit;
+  border: 1.5px solid #012009;
+  border-radius: 8px;
+  padding: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button:hover,
+.button:active {
+  background: white;
+  color: #012009;
 }
 
 .main-header {
