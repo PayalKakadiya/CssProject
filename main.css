@@ -1,12 +1,11 @@
-body {
-  font-family: "Montserrat", sans-serif;
-  margin: 0;
-}
-
 #product-overview {
   background: url(freedom.png);
   padding: 20px;
   height: 300px;
+
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
 }
 
 .section-title {
@@ -16,7 +15,7 @@ body {
 
 #product-overview h1 {
   color: rgb(248, 243, 243);
-  font-family: "Anton", sans-serif;
+  font-family: 'Anton', sans-serif;
 }
 .plan {
   background: rgb(172, 247, 209);
@@ -45,7 +44,7 @@ body {
   color: rgb(92, 97, 97);
 }
 #key-features {
-  background: rgb(250, 9, 49);
+  background: rgb(241, 159, 211);
   margin-top: 80px;
   padding: 15px;
 }
@@ -57,21 +56,7 @@ body {
 .plan__features li {
   margin: 8px 0;
 }
-.button {
-  background-color: #012009;
-  color: white;
-  font: inherit;
-  border: 1.5px solid #012009;
-  border-radius: 8px;
-  padding: 8px;
-  font-weight: bold;
-  cursor: pointer;
-}
-.button:hover,
-.button:active {
-  background: white;
-  color: #012009;
-}
+
 .key-feature__list {
   list-style: none;
   margin: 0;
@@ -82,58 +67,22 @@ body {
 .key-feature {
   display: inline-block;
   width: 30%;
-  height: 100px;
+  height: 200px;
   vertical-align: top;
-
 }
-.key-feature__description{
-  text-align:center;
+
+.key-feature__image {
+  background: #f0e487;
+  width: 128px;
+  border: 2px solid rgb(90, 3, 3);
+  border-radius: 50%;
+  height: 128px;
+  margin: auto;
+}
+
+.key-feature__description {
+  text-align: center;
   font-size: 20px;
   font-weight: bold;
   color: white;
-}
-
-.main-header {
-  background-color: #2ddf5c;
-  width: 100%;
-  padding: 8px 16px;
-}
-
-.main-nav-item {
-  display: inline-block;
-  margin: 0 16px;
-}
-.main-header > div {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.main-nav {
-  display: inline-block;
-  text-align: right;
-  width: 60%;
-  vertical-align: middle;
-}
-.main-header-brand {
-  color: rgb(2, 43, 29);
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 22px;
-}
-.main-nav-items {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.main-nav-item a {
-  text-decoration: none;
-  color: rgb(2, 43, 29);
-  font-weight: bold;
-  padding: 3px 0;
-}
-.main-nav-item a:active,
-.main-nav-item a:hover {
-  color: white;
-  border-bottom: white 1px solid;
 }

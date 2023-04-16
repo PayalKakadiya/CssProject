@@ -1,0 +1,43 @@
+main {
+  padding-top: 32px;
+}
+
+.package {
+  width: 80%;
+  margin: 16px 0;
+  border: 4px solid forestgreen;
+  border-left: none;
+}
+.package a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 32px;
+}
+
+.package-subtitle {
+  color: darkgray;
+}
+
+.package-info {
+  padding: 16px;
+  border: 1px solid darkgreen;
+  font-size: 20px;
+  color: darkgreen;
+  background: white;
+}
+#plus {
+  background: rgba(213, 255, 220, 0.95);
+}
+#free {
+  background: rgba(234, 252, 237, 0.95);
+}
+#premium {
+  background-color: rgba(14, 79, 31, 0.95);
+}
+#premium .package-title {
+  color: white;
+}
+#premium .package-subtitle {
+  color: #bbb;
+}
