@@ -7,7 +7,7 @@ body {
 }
 
 .main-footer {
-  background-color: rgb(247, 4, 150);
+  background-color: #ff1b68;
   padding: 32px;
   margin-top: 48px;
 }
@@ -51,6 +51,11 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 22px;
+  height: 22px;
+  display: inline-block;
+}
+.main-header-brand img{
+  height: 100%;
 }
 .main-header {
   background-color: #2ddf5c;
@@ -74,7 +79,7 @@ body {
 .main-nav {
   display: inline-block;
   text-align: right;
-  width: 60%;
+  width:calc(100% - 60px);
   vertical-align: middle;
 }
 
