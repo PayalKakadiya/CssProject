@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>MyCssProject</title>
-    <link rel="shortcut icon" href="../images/images.png" />
+      <meta name="viewport" content="width=device-width , initial-scale=1.0">
 
+    <title>MyLearning</title>
+    <link rel="shortcut icon" href="../images/greenn.png" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
       rel="stylesheet"
@@ -15,16 +16,23 @@
   </head>
 
   <body>
-    <div class="background"></div>
+    <div class="backdrop"></div>
     <header class="main-header">
       <div>
-        <a class="main-header-brand" href="../index.html">  MyLearning    <img src="../images/images.png " alt="MyLearning">
+        <button class="toggle-button">
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+        </button>
+
+        <a class="main-header-brand" href="../index.html">
+          MyLe<img src="../images/greenn.png " alt="MyLearning" />rning
         </a>
       </div>
       <nav class="main-nav">
         <ul class="main-nav-items">
           <li class="main-nav-item">
-            <a href="../packages/index.html">Packages</a>
+            <a href="index.html">Packages</a>
           </li>
           <li class="main-nav-item">
             <a href="../customers/index.html">Customers</a>
@@ -35,6 +43,19 @@
         </ul>
       </nav>
     </header>
+    <nav class="mobile-nav">
+      <ul class="mobile-nav__items">
+        <li class="mobile-nav__item">
+          <a href="index.html">Packages</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="../customers/index.html">Customers</a>
+        </li>
+        <li class="mobile-nav__item mobile-nav__item--cta">
+          <a href="start-hosting/index.html">Start Hosting</a>
+        </li>
+      </ul>
+    </nav>
     <main>
       <section class="package" id="plus">
         <a href="#">
@@ -80,5 +101,6 @@
         </ul>
       </nav>
     </footer>
+    <script src="../shared.js"></script>
   </body>
 </html>
