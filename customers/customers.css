@@ -1,6 +1,9 @@
 .testimonial {
   font-size: 20px;
   margin: 48px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .testimonial__list {
@@ -12,15 +15,13 @@
   margin-top: 96px;
 }
 .testimonial__image-container {
-width: 65%;
-display: inline-block;
-vertical-align: middle;
-box-shadow: 3px 3px 4px 3px rgba(0, 0, 0, 0.5);
+  width: 65%;
+
+  box-shadow: 3px 3px 4px 3px rgba(0, 0, 0, 0.5);
 }
 .testimonial__image {
-width:100%;
-vertical-align: top;
-
+  width: 100%;
+  vertical-align: top;
 }
 
 .testimonial__info {
